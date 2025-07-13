@@ -1,0 +1,21 @@
+config_args = {
+    'dataset': ('beauty', ''),
+    'device': ('cuda:0', ''),
+    'emb': ('', ''),
+    'emb_dim': (50, ''),
+    'num_experts': (8, ''),
+    'margin': (0.1, ''),
+    'margin1': (0.1, ''),
+    'weight': (0.01, ''),
+    't': (0.5, ''),
+    'num_layers': (3, ''),
+    'lr': (0.001, ''),
+    'batch_size': (4096, ''),
+    'wd': (0.0005, ''),
+    'momentum': (0.95, ''),
+    'max_norm': (1.5, ''),
+    'scale': (0.1, ''),
+    'seed': (1234, ''),
+    'epochs': (500, ''),
+    'eval_batch_num': (20, '')
+}
