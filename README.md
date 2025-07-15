@@ -17,3 +17,4 @@ python main.py --dataset sports --device cuda:0 --emb 12_50_0.2 --margin 1.8 --m
 python phase1.py --dataset beauty --device cuda:0 --num_experts 16 --margin 0.1
 python main.py --dataset beauty --device cuda:0 --emb 16_50_0.1 --margin 1.6 --margin1 0.9
 ```
+The dataset can be accessed at the following link: [Google Drive Dataset](https://drive.google.com/drive/folders/1d-jTWhRwip5X8S9GavMpi9xbxwnI9BvH?usp=sharing)
